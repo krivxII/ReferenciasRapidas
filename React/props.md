@@ -1,19 +1,24 @@
-## Indice
+
+# props
+
+Referencias rapidas para las propiedades en react
+
+# Indice
+
 - [Cosas a recordar](#Cosas-a-recordar)
 - [Propiedades por defecto](#Propiedades-por-defecto)
+- [Propiedades a variables de estado](#Propiedades-a-variables-de-estado)
 
 --------------------------
+
 ## Cosas a recordar
+
 - Las propiedades no se pueden crear dentro de la funcion.
 - Las propiedades no se pueden modificar dentro de la funcion.
 
-[Indice](#Indice)
+--------------------------
 
----------------------------
 ## Propiedades por defecto
-Las propiedades no se pueden ni crear ni cambiar. Esto limita la forma en la que se pueden trabajar con ellas.
-
-Una buena solucion es crear dentro de a funcion variables locales que almacenen el valor temporal de la propiedad y de no existir la propiedad se le asigna el valor por defecto
 
 ```javascript
 function ComponenteSuma(props) {
@@ -28,7 +33,9 @@ function ComponenteSuma(props) {
     return (<p>{n1+n2}</p>)
 }
 ```
+
 Mucha gente prefiere la ´destructuring syntax´ para hacer el codigo mas elegante
+
 ```javascript
 function Add({n1=0, n2 = 0}) {
   return (
@@ -38,4 +45,30 @@ function Add({n1=0, n2 = 0}) {
   )
 }
 ```
+[Indice](#Indice)
+
+---
+
+## Propiedades a variables de estado
+
+```javascript
+function AddWithInput({n1=0, n2 = 0}) {
+
+  const [n22, setN22] = React.useState(n2)
+
+  function handleInputChange(event) {
+    const input = event.target
+    setN22(Number(input.value));
+    setN22(newN2)
+  }
+
+  return (
+    <div>
+      {n1} + <input type="number" value={n2} onChange={handleInputChange} /> ={' '}
+      {n1 + n2}
+    </div>
+  )
+}
+```
+
 [Indice](#Indice)
