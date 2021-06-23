@@ -4,7 +4,7 @@ nota : seguido ejemplo de esta [Guia](https://phoenixnap.com/kb/update-node-js-v
 
 *A travez de "NPM" y "n"*
 
-```
+```bash
 # Update Packages
 sudo apt-get update
 
