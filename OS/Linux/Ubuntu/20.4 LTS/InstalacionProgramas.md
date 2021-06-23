@@ -1,5 +1,5 @@
 # Intalacion de programas
-
+nota : seguido ejemplo de esta [Guia](https://phoenixnap.com/kb/update-node-js-version)
 ## Node.Js
 
 *A travez de "NPM" y "n"*
