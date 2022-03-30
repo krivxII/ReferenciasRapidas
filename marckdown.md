@@ -52,3 +52,14 @@
 # Denotar
 `Use in your Markdown file.`
 ``Use `code` in your Markdown file.``
+
+
+<details>
+<summary>How do I dropdown?</summary>
+
+
+## This is how you dropdown
+__________
+
+
+</details>
