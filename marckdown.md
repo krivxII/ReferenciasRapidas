@@ -46,3 +46,7 @@
 ```
    ///generic code
 ```
+
+# Denotar
+`Use in your Markdown file.`
+``Use `code` in your Markdown file.``
