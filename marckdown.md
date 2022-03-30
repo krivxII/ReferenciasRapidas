@@ -3,6 +3,8 @@
 2. [Codigo](#Codigo)
 3. [Third Example](#third-example)
 
+[a relative link](./ubicacion/)
+
 --------------------
 ## Listas
 
