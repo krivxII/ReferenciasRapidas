@@ -4,9 +4,9 @@
 3. [Third Example](#third-example)
 
 # Table of Contents v2
-1. [Introduccion](./ReferenciasRapidas#Introduccion)
-2. [Codigo](./ReferenciasRapidas##Codigo)
-3. [Third Example](./ReferenciasRapidas##third-example)
+1. [Introduccion](./marckdown.md#Introduccion)
+2. [Codigo](./marckdown.md##Codigo)
+3. [Third Example](./marckdown.md##third-example)
 
 
 
